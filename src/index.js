@@ -8,11 +8,11 @@ import "./index.css";
 
 // Components
 import Navbar from "./Components/Navbar/Navbar";
-import Landing from "./pages/Landing/Landing";
-import Users from "./pages/Users/Users";
-import Profile from "./pages/Profile/Profile";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import Posts from "./pages/Posts/Posts";
+import Landing from "./pages/Landing";
+import Users from "./pages/Users";
+import Profile from "./pages/Profile";
+import Dashboard from "./pages/Dashboard";
+import Posts from "./pages/Posts";
 
 // General View layout => Navbar + View element
 const root = ReactDOM.createRoot(document.getElementById("root"));

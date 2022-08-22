@@ -8,8 +8,14 @@ nav {
   justify-content: space-between;
 }
 
+h2 {
+  min-width: 12rem;
+}
+
 .links {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 

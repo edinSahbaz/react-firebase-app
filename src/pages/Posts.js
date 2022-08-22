@@ -1,5 +1,4 @@
-import "./Posts.css";
-import useFetch from "../../hooks/useFetch";
+import useFetch from "../hooks/useFetch";
 
 const Posts = () => {
   const {
@@ -21,10 +20,10 @@ const Posts = () => {
 
       <div>{error && <h3>Error: {error}</h3>}</div>
 
-      <div className="posts">
+      <div className="cards">
         {posts &&
           posts.map((post) => (
-            <div className="post">
+            <div className="card" key={post.id}>
               <p>Post #{post.id}</p>
               <h3>{post.title}</h3>
               <p>{post.body}</p>
