@@ -11,10 +11,11 @@ body {
 
 .content {
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 .description {
@@ -27,7 +28,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
 }
 
 .card {
@@ -55,4 +55,78 @@ body {
 
 .card p span {
   font-weight: bold;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+
+  gap: 1rem;
+  width: 22rem;
+
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.loginForm input {
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.loginForm textarea {
+  padding: 0.4rem;
+  width: 100%;
+  height: 8rem;
+  resize: none;
+}
+
+.btn {
+  color: #fff;
+  background-color: rgb(200, 0, 0);
+
+  padding: 0.4rem;
+  width: 12rem;
+
+  cursor: pointer;
+
+  border: 1px solid black;
+  border-radius: 0.4rem;
+
+  text-decoration: none;
+  text-align: center;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.loginForm .error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.welcome {
+  margin-bottom: 1rem;
+}
+
+.authMsg span {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.textCenter {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.editBio {
+  padding: 0.4rem;
+  width: 26rem;
+  height: 14rem;
 }
