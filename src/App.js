@@ -1,9 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// Global styles
-import "./index.css";
-
-// Components
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./pages/Landing";
 import Users from "./pages/Users";
@@ -12,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Posts from "./pages/Posts";
 import { UserContext } from "./context/UserContext";
 import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   const [user, setUser] = useState("");

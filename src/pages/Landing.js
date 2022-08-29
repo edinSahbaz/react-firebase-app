@@ -135,7 +135,7 @@ const Landing = () => {
       {creatingUser && (
         <div className="textCenter">
           <strong>Creating user...</strong>
-          <p>You will be soon redirected to the dashboard.</p>
+          <p>You will be redirected to the dashboard soon.</p>
         </div>
       )}
     </div>
